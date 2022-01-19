@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="images/logo.svg" alt="blog logo">
+                </a>
+            </div>
+            <ul class="nav__list" id="topNav">
+                <li class="nav__item">
+                    <a class="nav__link nav__link-active" href="">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">About</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">Search</a>
+                </li>
+                <li class="nav__icon">
+                    <a class="nav__link" href="javascript:void(0);" onclick="topNav()">&#9776;</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <div class="contacts">
+            <div class="contacts__info">
+                <div class="contacts__info-title">
+                    Контактная информация
+                </div>
+                <div class="contacts__info-tel">
+                    <img src="images/icons/phone-call 1.svg" alt="" class="contacts__icon">
+                    <a href="tel:60606256" class="contacts__tel-number">+321 60606256</a>
+                </div>
+                <div class="contacts__info-address">
+                    <img src="images/icons/location-pin 1.svg" alt="" class="contacts__icon">
+                    <address class="contacts__address">
+                        г. Санкт-Петербург, ул. Ленина, 9
+                    </address>
+                </div>
+                <div class="contacts__socials">
+                    <a href="#" class="contacts__social-link">
+                        <img class="contacts__social-icon" src="images/icons/Facebook.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__social-link">
+                        <img class="contacts__social-icon" src="images/icons/VK.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__social-link">
+                        <img class="contacts__social-icon" src="images/icons/Instagram.svg" alt="">
+                    </a>
+                    <a href="#" class="contacts__social-link">
+                        <img class="contacts__social-icon" src="images/icons/Twitter.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="contacts__form">
+                <h2 class="contacts__form-title">
+                    Напишите нам
+                </h2>
+                <input class="contacts__form-input" type="text" name="name" placeholder="Ваше имя" id="">
+                <input class="contacts__form-input" type="email" name="email" placeholder="Ваш email" id="">
+                <textarea class="contacts__form-input contacts__form-textarea" name="message" placeholder="Ваше сообщение" id=""></textarea>
+                <button class="contacts__send-btn">отправить <img class="contacts__send-icon"
+                        src="images/icons/right-arrow.svg" alt=</button> </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <img class="footer__logo-img" src="images/logo.svg" alt="footer logo image">
+        </div>
+        <div class="footer__menu">
+            <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">About</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">Gallery</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">News</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__copyright">
+            ООО “Организация” 2020. Все права защищены
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

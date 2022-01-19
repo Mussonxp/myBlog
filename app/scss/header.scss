@@ -1,0 +1,51 @@
+.header {
+    background: $white;
+    &__cover {
+        background-image: url(../images/header_cover.jpg);
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    align-items: center;
+    padding: 0.62em 0 0.62em 0;
+    justify-content: space-around;
+    font-family: 'Futura', sans-serif;
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        justify-self: end;
+    }
+    &__item {
+        float: left;
+    }
+    &__link {
+        display: inline-block;
+        color: $black;
+        text-align: center;
+        padding: 0.87em 1em;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 1.06em;
+    }
+    &__link-active {
+        color: $purple;
+        border-bottom: 0.06em solid $purple;
+    }
+    &__link:hover {
+        background-color: $grey;
+        color: $white;
+        border-radius: 0.93em;
+        transition: 0.7s;
+    }
+    &__icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width:680px) {}

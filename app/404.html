@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="images/logo.svg" alt="blog logo">
+                </a>
+            </div>
+            <ul class="nav__list" id="topNav">
+                <li class="nav__item">
+                    <a class="nav__link nav__link-active" href="">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">About</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">Search</a>
+                </li>
+                <li class="nav__icon">
+                    <a class="nav__link" href="javascript:void(0);" onclick="topNav()">&#9776;</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="error">
+            <img src="images/icons/Avatar 1.svg" alt="" class="error__avatar">
+            <div class="error__info">
+                <div class="error__message">
+                    Что-то пошло не так...
+                </div>
+                <div class="error__back-link">
+                    <a href="#" class="error__link">
+                        << Вернуться назад </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__logo">
+            <img class="footer__logo-img" src="images/logo.svg" alt="footer logo image">
+        </div>
+        <div class="footer__menu">
+            <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">About</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">Gallery</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">News</a>
+                </li>
+                <li class="footer__menu-item">
+                    <a href="#" class="footer__menu-link">Contacts</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__copyright">
+            ООО “Организация” 2020. Все права защищены
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

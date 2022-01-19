@@ -1,0 +1,20 @@
+.error {
+    text-align: center;
+    margin-bottom: 5em;
+    &__avatar {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5em;
+    }
+    &__info {
+        margin-top: 2.2em;
+    }
+    &__message {
+        font-family: 'Futura', sans-serif;
+        font-size: 2em;
+    }
+    &__back-link {
+        font-family: 'Futura', sans-serif;
+        margin-top: 2.2em;
+    }
+}

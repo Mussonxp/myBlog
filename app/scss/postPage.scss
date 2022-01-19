@@ -1,0 +1,58 @@
+figure {
+    width: 320px;
+}
+
+.post {
+    margin-bottom: 2.5em;
+    &__info {
+        display: flex;
+    }
+    &__category {
+        color: $blue;
+        text-transform: capitalize;
+    }
+    &__date {
+        margin-left: 2.5em;
+    }
+    &__footer-img {
+        margin-top: 2.5em;
+        width: 100%;
+    }
+    &__sign-right {
+        float: right;
+        padding: 7px;
+        margin: 10px 0 5px 5px;
+    }
+    &__img-figcaption {
+        text-align: center;
+        font-size: 0.7em;
+        line-height: 1.2em;
+        font-family: 'FuturaLight', sans-serif;
+        font-weight: 200;
+        color: $grey;
+    }
+    &__title {
+        margin-bottom: 2.5em;
+        margin-top: 1em;
+    }
+    &__text {
+        margin-bottom: 1em;
+        line-height: 1.5em;
+        color: $grey;
+    }
+}
+
+.nav-arrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+    color: $blue;
+    align-items: center;
+    font-family: 'Futura', sans-serif;
+    &__link {
+        color: $black
+    }
+    &__link:hover {
+        color: $blue;
+    }
+}

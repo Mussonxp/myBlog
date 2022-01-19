@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="images/logo.svg" alt="blog logo">
+                </a>
+            </div>
+            <ul class="nav__list" id="topNav">
+                <li class="nav__item">
+                    <a class="nav__link nav__link-active" href="">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">About</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">Contact</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="">Search</a>
+                </li>
+                <li class="nav__icon">
+                    <a class="nav__link" href="javascript:void(0);" onclick="topNav()">&#9776;</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__cover">
+            <img class="header__img" src="images/header_cover.jpg" alt="header cover image with anonimus mask and Imperial Stormtroopers from star wars movie">
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main container">
+            <div class="main__area">
+                <article class="post">
+                    <div class="post__inner">
+                        <div class="post__info">
+                            <span class="post__category">
+                категория
+              </span>
+                            <div class="post__date">
+                                13 dec 2020
+                            </div>
+                        </div>
+                        <h2 class="post__title">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                        </h2>
+                        <p class="post__text">
+                            Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. Выждав несколько
+                            дней, он пришёл к руководителю и спросил: «Похоже тот отчёт, который я готовлю, не особо востребован, а что вам действительно нужно?» Руководитель признался, что массивный отчёт хороший, но им не пользуются. И набросал на листе
+                            бумаги то, что хотелось бы иметь под рукой.
+                        </p>
+                        <div class="post__img-block">
+                            <p class="post__text">
+                                Управление ИТ-активами, как и управление конфигурациями, является базовым процессом для других. В первом случае более важным является финансовый аспект, во втором – эксплуатационные задачи. Оба процесса можно перегрузить деталями и превратить во что-то
+                                рутинное. Как же найти баланс и сделать процесс по-настоящему «живым»?
+
+                            </p>
+                            <figure class="post__sign-right">
+                                <img class="post-img" src="images/post_img_123456.png" width="320" height="171" alt="laptop">
+                                <figcaption class="post__img-figcaption">Учёт из рутины может превратиться в интересную задачу, своего рода «вызов» по переходу на новый уровень.</figcaption>
+                            </figure>
+                        </div>
+                        <p class="post__text">
+                            Конечно, баланс унификации и персонального подхода – дело каждого. Вспомним историю про послевоенное автомобилестроение: американская и японская тактика. Постепенно японцы достигли превосходства благодаря, в том числе, выверенному балансу унификации и
+                            культуре производства. Но это правило не для всех.
+
+                        </p>
+                        <p class="post__text">
+                            Конечно, баланс унификации и персонального подхода – дело каждого. Вспомним историю про послевоенное автомобилестроение: американская и японская тактика. Постепенно японцы достигли превосходства благодаря, в том числе, выверенному балансу унификации и
+                            культуре производства. Но это правило не для всех.
+                        </p>
+
+                        <img class="post__footer-img" src="images/post_img.jpg" alt="">
+
+                    </div>
+                </article>
+                <div class="nav-arrow">
+                    <a href="" class="nav-arrow__link"> <span class="nav-arrow__prev">
+            << Предыдущая новость </span></a>
+                    <a href="" class="nav-arrow__link"> <span class="nav-arrow__next">
+              Следующая новость >>
+          </span></a>
+                </div>
+
+
+
+            </div>
+            <!-- Aside section -->
+            <aside class="aside">
+                <div class="aside__popular">
+                    <h3 class="aside__popular-title">
+                        Популярные новости
+                    </h3>
+                    <div class="aside__news">
+                        <a href="" class="aside__news-link">
+                            <h3 class="aside__news-title">
+                                ITAM&SAMDay – самая настоящая удача!
+                            </h3>
+                        </a>
+                        <div class="aside__news-date">
+                            13 dec 2020
+                        </div>
+                    </div>
+                    <div class="aside__news">
+                        <a href="" class="aside__news-link">
+                            <h3 class="aside__news-title">
+                                Секреты лицензирования. Всё, что вы хотели знать про Microsoft, SAP и Oracle, но не знали, у кого спросить ...
+                            </h3>
+                        </a>
+                        <div class="aside__news-date">
+                            9 dec 2020
+                        </div>
+                    </div>
+                    <div class="aside__news">
+                        <a href="" class="aside__news-link">
+                            <h3 class="aside__news-title">
+                                Менеджмент XXI века. Надо ли готовиться к изменениям или мы давно уже должны были измениться?
+                            </h3>
+                        </a>
+                        <div class="aside__news-date">
+                            5 dec 2020
+                        </div>
+                    </div>
+                </div>
+                <div class="aside__subscribe">
+                    <div class="aside__subscribe-form">
+                        <div class="aside__subscribe-title">
+                            Подписка на рассылку
+                        </div>
+                        <input class="aside__subscribe-input" type="email" name="email" id="email" placeholder="email@email.com" maxlength="35">
+                        <button class="aside__subscribe-btn">
+              Подписаться
+              <img class="aside__subscribe-icon" src="images/icons/right-arrow.svg" alt="">
+            </button>
+                    </div>
+                </div>
+            </aside>
+            <!-- / Aside section -->
+        </main>
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="footer__logo">
+                <img class="footer__logo-img" src="images/logo.svg" alt="footer logo image">
+            </div>
+            <div class="footer__menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">About</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Gallery</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">News</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copyright">
+                ООО “Организация” 2020. Все права защищены
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

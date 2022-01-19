@@ -1,0 +1,84 @@
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5em;
+    margin-top: 2.5em;
+    &__info {
+        justify-self: center;
+        margin-top: 2.5em;
+    }
+    &__info-title {
+        font-family: 'FuturaBold', sans-serif;
+        margin-bottom: 1.5em;
+    }
+    &__info-tel {
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        margin-right: 0.8em;
+    }
+    &__tel-number {
+        font-family: 'Futura', sans-serif;
+        color: $black;
+    }
+    &__info-address {
+        font-family: 'Futura', sans-serif;
+        margin-top: 1em;
+        display: flex;
+    }
+    &__socials {
+        display: flex;
+    }
+    &__social-link {
+        margin-right: 1.2em;
+        margin-top: 2.2em;
+    }
+    &__form {
+        text-align: center;
+        padding: 40px 60px;
+        border: 1px solid $blue;
+        border-radius: 1em;
+        box-shadow: 0.125em 0.063em 0.938em 0 rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0.125em 0.063em 0.938em 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0.125em 0.063em 0.938em 0 rgba(0, 0, 0, 0.75);
+        margin-bottom: 8.688em;
+        justify-self: center;
+    }
+    &__form-title {
+        font-family: 'FuturaBold', sans-serif;
+        margin-bottom: 1.5em;
+    }
+    &__form-input {
+        margin-bottom: 1.2em;
+        border-radius: 1em;
+        border: none;
+        background: $form-bg;
+        width: 100%;
+        padding: 1em 2em;
+    }
+    &__form-input::placeholder {
+        font-family: 'FuturaLight', sans-serif;
+        font-size: 1em;
+    }
+    &__form-textarea {
+        overflow-y: hidden;
+    }
+    &__send-btn {
+        border: none;
+        border-radius: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        color: $white;
+        padding: 0.5em 0 0.5em 0;
+        background: $purple;
+        width: 100%;
+        margin-top: 1.5em;
+        font-family: 'FuturaLight', sans-serif;
+    }
+    &__send-icon {
+        margin-left: 0.7em;
+    }
+}
