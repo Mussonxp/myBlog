@@ -1,11 +1,13 @@
-# myBlog
+# Furniture Website
+
 Repo of website frontend.
 
-Prerequisites:
-Gulp
-NPM
-install:
+# Prerequisites:
+1. Gulp
+2. NPM
+
+# install:
 npm i
 
-Run in development mode:
+# Run in development mode:
 gulp
