@@ -1,4 +1,4 @@
-# Furniture Website
+# Blog Template
 
 Repo of website frontend.
 
